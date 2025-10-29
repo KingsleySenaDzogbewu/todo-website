@@ -1,0 +1,60 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  background-image: url('todo-lists-image.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+
+}
+
+.input-grid,
+.todo-list {
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  align-items: center;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+.input-grid {
+  margin-bottom: 10px;
+  align-items: stretch;
+}
+
+.delete-button{
+  width: 100px;
+  background-color: lightcoral;
+  cursor: pointer;
+}
+
+.add-button{
+  background-color: gainsboro;
+  cursor: pointer;
+}
+
+.edit-button {
+  background-color: aquamarine;
+  width: 100px;
+  cursor: pointer;
+}
+
+.par{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.todo-name,
+.todo-date {
+  font-size: 20px;
+}
+
+.todo-input {
+  height: 25px;
+}
