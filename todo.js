@@ -28,8 +28,6 @@ function renderTodoList() {
   }
   document.querySelector('.todo-list').innerHTML = html;
   localStorage.removeItem('todoList');
-
-  
 }
 
 function addButton () {
@@ -71,4 +69,3 @@ function editButton(index) {
 
 }
 addButton();
-
