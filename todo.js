@@ -6,6 +6,7 @@ if (savedTodos) {
   renderTodoList();
 }
 
+// function to display the todos
 function renderTodoList() {
   let html = ''
   for(let i = 0; i < todoList.length; i++) {
